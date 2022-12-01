@@ -1,0 +1,4 @@
+FROM python:latest
+WORKDIR /usr/app/src
+COPY restaurant_food.py ./
+CMD ["python3", "./restaurant_food.py", "path"]
